@@ -1,76 +1,367 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>あそんじゃうフェス in 大和郡山</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
-<header class="hero">
-    <div class="container hero-inner">
-        <span class="badge">
-            未来の子育て環境を考える社会実験
-        </span>
-        <h1>
-            あそんじゃうフェス<br>
-            in 大和郡山
-        </h1>
-        <p>
-            遊びながら、未来をつくろう。
-        </p>
-        <a href="#entry" class="btn">
-            参加申し込み
-        </a>
-    </div>
-</header>
-<section class="concept">
-    <div class="container">
-        <h2>このイベントについて</h2>
-        <p class="section-text">
-            大和郡山市では、新しい子ども・子育て支援環境づくりに向けた
-            社会実験を実施します。
-        </p>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <h2>あそびコンテンツ</h2>
-        <div class="cards">
-            <div class="card">
-                <img
-                    src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80">
-                <div class="card-content">
-                    <h3>トントン相撲</h3>
-                    <p>
-                        親子で気軽に楽しめる人気コンテンツ。
-                    </p>
-                </div>
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <span class="hero-tag">
+                大和郡山市 子育て環境づくり社会実験
+            </span>
+
+            <h1>
+                あそんじゃうフェス
+            </h1>
+
+            <p class="hero-lead">
+                あそんで、出会って、<br>
+                未来をつくる。
+            </p>
+
+            <p class="hero-description">
+                遊びや交流を楽しみながら、
+                これからの大和郡山市に必要な
+                子どもの居場所や子育て環境について
+                みんなで考える2日間です。
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#entry" class="btn-primary">
+                    参加申し込み
+                </a>
+
+                <a href="#about" class="btn-secondary">
+                    イベントについて
+                </a>
+
             </div>
-            <!-- 以下カード追加 -->
+
         </div>
-    </div>
-</section>
-<section id="entry" class="cta">
-    <div class="container">
-        <h2>参加申し込み</h2>
-        <p>
-            定員になり次第受付終了となります。
-        </p>
-        <a
-            href="https://forms.google.com"
-            target="_blank"
-            class="btn">
-            申し込む
-        </a>
-    </div>
-</section>
-<footer>
-    <p>
-        © あそんじゃうフェス in 大和郡山
-    </p>
-</footer>
+
+    </header>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section section-light">
+
+        <div class="container narrow">
+
+            <span class="section-label">
+                ABOUT
+            </span>
+
+            <h2>
+                遊びが、未来につながる。
+            </h2>
+
+            <p>
+                大和郡山市では、
+                新しい子ども・子育て支援施設の整備に向けた
+                社会実験を実施します。
+            </p>
+
+            <p>
+                親子で遊びながら、
+                「こんな場所があったらいいな」
+                「こんな遊びがしたいな」
+                という声を集め、
+                未来の子育て環境づくりに活かします。
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PLAY -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <span class="section-label">
+                PLAY
+            </span>
+
+            <h2>
+                体験できること
+            </h2>
+
+            <div class="card-grid">
+
+                <article class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1000&q=80"
+                        alt="トントン相撲">
+
+                    <div class="card-body">
+
+                        <h3>トントン相撲</h3>
+
+                        <p>
+                            親子で気軽に楽しめる人気コンテンツ。
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1000&q=80"
+                        alt="ごっこ遊び">
+
+                    <div class="card-body">
+
+                        <h3>ごっこあそび</h3>
+
+                        <p>
+                            お店屋さんや地域の魅力を遊びながら体験。
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1000&q=80"
+                        alt="ブロック遊び">
+
+                    <div class="card-body">
+
+                        <h3>ブロックあそび</h3>
+
+                        <p>
+                            自由な発想でつくる創造体験。
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1000&q=80"
+                        alt="モルック">
+
+                    <div class="card-body">
+
+                        <h3>モルック</h3>
+
+                        <p>
+                            みんなで楽しめる体験型スポーツ。
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80"
+                        alt="インクルーシブ遊具">
+
+                    <div class="card-body">
+
+                        <h3>インクルーシブ遊具</h3>
+
+                        <p>
+                            誰もが一緒に楽しめる遊び体験。
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1000&q=80"
+                        alt="ミニプレイパーク">
+
+                    <div class="card-body">
+
+                        <h3>ミニプレイパーク</h3>
+
+                        <p>
+                            小さなお子さま向けの安心スペース。
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- LOCAL -->
+
+    <section class="section section-accent">
+
+        <div class="container">
+
+            <span class="section-label">
+                LOCAL
+            </span>
+
+            <h2>
+                大和郡山らしさを発見
+            </h2>
+
+            <div class="feature-grid">
+
+                <div class="feature">
+                    <h3>地元農産物</h3>
+                    <p>いちご・トマト・ナス・れんこんなど</p>
+                </div>
+
+                <div class="feature">
+                    <h3>商い文化</h3>
+                    <p>ごっこ遊びで地域の魅力を体験</p>
+                </div>
+
+                <div class="feature">
+                    <h3>ものづくり</h3>
+                    <p>地元企業や産業の魅力を発見</p>
+                </div>
+
+                <div class="feature">
+                    <h3>地域交流</h3>
+                    <p>地域の人とつながる機会づくり</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOCIAL EXPERIMENT -->
+
+    <section class="section">
+
+        <div class="container narrow center">
+
+            <span class="section-label">
+                SOCIAL EXPERIMENT
+            </span>
+
+            <h2>
+                みんなの声が、未来をつくる。
+            </h2>
+
+            <div class="numbers">
+
+                <div>
+                    <strong>10問以内</strong>
+                    <span>アンケート</span>
+                </div>
+
+                <div>
+                    <strong>親子の声</strong>
+                    <span>意見収集</span>
+                </div>
+
+                <div>
+                    <strong>未来へ</strong>
+                    <span>施設計画へ反映</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- INFO -->
+
+    <section class="section section-light">
+
+        <div class="container narrow">
+
+            <span class="section-label">
+                INFORMATION
+            </span>
+
+            <h2>
+                開催概要
+            </h2>
+
+            <dl class="info-list">
+
+                <dt>開催日</dt>
+                <dd>2026年8月予定</dd>
+
+                <dt>会場</dt>
+                <dd>大和郡山市内</dd>
+
+                <dt>対象</dt>
+                <dd>未就学児〜小学3年生程度とその家族</dd>
+
+                <dt>参加費</dt>
+                <dd>無料</dd>
+
+                <dt>主催</dt>
+                <dd>大和郡山市</dd>
+
+                <dt>協力</dt>
+                <dd>株式会社ジャクエツ</dd>
+
+            </dl>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section id="entry" class="cta">
+
+        <div class="container">
+
+            <h2>
+                参加無料
+            </h2>
+
+            <p>
+                みんなで未来の子育て環境を考えよう
+            </p>
+
+            <a
+                href="https://forms.google.com"
+                target="_blank"
+                class="btn-primary">
+
+                申し込む
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © あそんじゃうフェス in 大和郡山
+            </p>
+
+        </div>
+
+    </footer>
 
 </body>
-</html>
