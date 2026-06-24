@@ -1,294 +1,463 @@
 <!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>まちのあそびフェス in 〇〇〇〇</title>
-    <meta name="description" content="子育て環境づくり社会実験。ユニークな遊具・おはなし会・トントン相撲など、いろんなあそびが大集合！入場料無料。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>まちのあそびフェス in 三の丸</title>
+        <meta
+            name="description"
+            content="子育て環境づくり社会実験。ユニークな遊具・おはなし会・トントン相撲など、いろんなあそびが大集合！入場料無料。"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-8ZHX6KJLQK"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-<!-- ===== HERO ===== -->
-<header class="hero">
-
-    <!-- ガーランド -->
-    <div class="garland-wrap">
-        <img src="img/garland.png" alt="" aria-hidden="true">
-    </div>
-
-    <!-- 紙ふぶき -->
-    <img class="confetti cl" src="img/confetti.png" alt="" aria-hidden="true">
-    <img class="confetti cr" src="img/confetti.png" alt="" aria-hidden="true">
-
-    <!-- メインステージ -->
-    <div class="hero-stage">
-
-        <!-- ロゴ（スポットライト込み） -->
-        <img class="hero-logo" src="img/logo.png" alt="まちのあそびフェス in 〇〇〇〇">
-
-        <!-- 対象バッジ（右上） -->
-        <div class="target-badge">
-            <span class="target-label">対象</span>
-            <strong>小学校3年生<br>（9歳）までの<br>こども</strong>
-        </div>
-
-        <!-- 丸い会場写真（左） -->
-        <div class="venue-circle">
-            <img src="img/venue-photo.jpg" alt="会場イメージ">
-        </div>
-
-        <!-- メインイラスト（中央〜右） -->
-        <img class="main-illust" src="img/main-illust.png" alt="まちのあそびフェスのイメージ">
-
-        <!-- 社会実験バッジ -->
-        <span class="badge-exp">子育て環境づくり社会実験</span>
-
-    </div><!-- /hero-stage -->
-
-    <!-- 日程バー（白） -->
-    <div class="date-bar">
-        <div class="date-block">
-            <div class="date-row">
-                <span class="date-year">2026年</span>
-                <span class="date-num"><em>8</em>月<em>9</em>日</span>
-                <span class="dow sun">日</span>
-                <span class="date-time">10:00〜16:00</span>
+            gtag("config", "G-8ZHX6KJLQK");
+        </script>
+    </head>
+    <body>
+        <!-- ===== HERO ===== -->
+        <header class="hero">
+            <!-- ガーランド -->
+            <div class="garland-wrap">
+                <img src="img/garland.png" alt="" aria-hidden="true" />
             </div>
-            <div class="date-row">
-                <span class="date-num date-num2"><em>10</em>日</span>
-                <span class="dow mon">月</span>
-                <span class="date-time">10:00〜15:00</span>
-            </div>
-        </div>
-        <div class="date-right">
-            <div class="venue-info">
-                <span class="venue-tag">開催場所</span>
-                <span class="venue-name">〇〇会館（〇〇体育館）</span>
-            </div>
-            <div class="free-wrap">
-                <span class="free-label">入場料</span>
-                <span class="free-badge">無料</span>
-            </div>
-        </div>
-    </div>
 
-    <!-- なあに？ -->
-    <div class="about-bar">
-        <div class="about-inner">
-            <div class="about-text">
-                <h2 class="about-ttl">まちのあそびフェスってなあに？？</h2>
-                <p>〇〇駅前官民複合施設内に計画中の<strong>子育て世代活動支援センター</strong>の整備にあたって、設置する遊具や運営方法等を検討するための実証実験として「まちのあそびフェス」を開催します。会場内には、最先端でユニークな遊具やおもちゃ、おはなし会にトントン相撲等、いろんな<strong>【あそび】</strong>が大集合！親子で一緒にぜひご来場ください！</p>
-            </div>
-            <div class="about-photos">
-                <div class="about-photo-item">
-                    <img src="img/ohanashi-photo.png" alt="おはなし会">
-                    <span>おはなし会</span>
+            <!-- 紙ふぶき -->
+            <img
+                class="confetti cl"
+                src="img/confetti.png"
+                alt=""
+                aria-hidden="true"
+            />
+            <img
+                class="confetti cr"
+                src="img/confetti.png"
+                alt=""
+                aria-hidden="true"
+            />
+
+            <!-- メインステージ -->
+            <div class="hero-stage">
+                <!-- ロゴ（スポットライト込み） -->
+                <img
+                    class="hero-logo"
+                    src="img/hero-logo.png"
+                    alt="まちのあそびフェス in 〇〇〇〇"
+                />
+
+                <!-- 対象バッジ（右上） -->
+                <div class="target-badge">
+                    <span class="target-label">対象</span>
+                    <strong>小学校3年生<br />（9歳）までの<br />こども</strong>
                 </div>
-                <div class="about-photo-item">
-                    <img src="img/venue-photo.jpg" alt="ユニークな遊具">
-                    <span>ユニークな遊具</span>
+
+                <!-- 丸い会場写真（左） -->
+                <div class="venue-circle">
+                    <img src="img/venue-photo.jpg" alt="会場イメージ" />
                 </div>
-                <div class="about-photo-item">
-                    <img src="img/sumo-photo.jpg" alt="トントン相撲大会">
-                    <span>トントン相撲大会</span>
-                </div>
+
+                <!-- メインイラスト（中央〜右） -->
+                <img
+                    class="main-illust"
+                    src="img/hero-playground-transparent.png"
+                    alt="まちのあそびフェスのイメージ"
+                />
+
+                <!-- 社会実験バッジ -->
+                <span class="badge-exp">子育て環境づくり社会実験</span>
             </div>
-        </div>
-    </div>
+            <!-- /hero-stage -->
 
-</header>
-
-
-<!-- ===== 開催内容 ===== -->
-<section class="section">
-    <div class="container">
-
-        <div class="section-bar">開催内容</div>
-
-        <div class="caution-box">
-            <p>・あそびエリアは<strong>土足厳禁</strong>です。靴を入れる袋をご持参ください</p>
-            <p>・あそびエリア内での飲食は<strong>ご遠慮</strong>ください。</p>
-        </div>
-
-        <div class="prog-list">
-
-            <div class="prog">
-                <div class="prog-head" style="background:#FF9933;">
-                    <img class="prog-icon" src="img/sumo-illust.png" alt="">
-                    <h3>ジャンボトントン相撲</h3>
+            <!-- 日程バー（白） -->
+            <div class="date-bar">
+                <div class="date-block">
+                    <div class="date-row">
+                        <span class="date-year">2026年</span>
+                        <span class="date-num"><em>8</em>月<em>9</em>日</span>
+                        <span class="dow sun">日</span>
+                        <span class="date-time">10:00〜16:00</span>
+                    </div>
+                    <div class="date-row">
+                        <span class="date-num date-num2"><em>10</em>日</span>
+                        <span class="dow mon">月</span>
+                        <span class="date-time">10:00〜15:00</span>
+                    </div>
                 </div>
-                <div class="prog-body">
-                    <div class="prog-photo"><img src="img/sumo-photo.jpg" alt="ジャンボトントン相撲"></div>
-                    <div class="prog-text">
-                        <p class="prog-time">各　<b>10:00-</b> ／ <b>13:00-</b> ／ <b>14:00-</b></p>
-                        <p class="prog-cap">【当日会場先着順】 ※定員8組　3部制</p>
-                        <p>自分たちで作った段ボール力士を、トントン相撲で戦わせよう！大きな土俵をくり抜いたり、絵を描いてオリジナル力士を作ります。</p>
+                <div class="date-right">
+                    <div class="venue-info">
+                        <span class="venue-tag">開催場所</span>
+                        <span class="venue-name">三の丸会館（市立体育館）</span>
+                    </div>
+                    <div class="free-wrap">
+                        <span class="free-label">入場料</span>
+                        <span class="free-badge">無料</span>
                     </div>
                 </div>
             </div>
 
-            <div class="prog">
-                <div class="prog-head" style="background:#FF99CC;">
-                    <img class="prog-icon" src="img/teddy-illust.png" alt="">
-                    <h3>おはなし会</h3>
-                </div>
-                <div class="prog-body">
-                    <div class="prog-photo"><img src="img/ohanashi-photo.png" alt="おはなし会"></div>
-                    <div class="prog-text">
-                        <p class="prog-time">各　<b>11:30-</b> ／ <b>14:30-</b></p>
-                        <p class="prog-cap">【参加自由】</p>
-                        <p>みんなで楽しむ絵本の世界にふれよう！親子で参加できます。</p>
+            <!-- なあに？ -->
+            <div class="about-bar">
+                <div class="about-inner">
+                    <div class="about-text">
+                        <h2 class="about-ttl">
+                            まちのあそびフェスってなあに？？
+                        </h2>
+                        <p>
+                            〇〇駅前官民複合施設内に計画中の<strong>子育て世代活動支援センター</strong>の整備にあたり、設置する遊具や運営方法等を検討するための実証実験として「まちのあそびフェス
+                            in
+                            三の丸」を開催します。会場内には、最先端でユニークな遊具やおもちゃ、おはなし会にトントン相撲等、いろんな<strong>【あそび】</strong>が大集合！親子で一緒にぜひご来場ください！
+                        </p>
+                    </div>
+                    <div class="about-photos">
+                        <div class="about-photo-item">
+                            <img
+                                src="img/ohanashi-illust.png"
+                                alt="おはなし会"
+                            />
+                            <span>おはなし会</span>
+                        </div>
+                        <div class="about-photo-item">
+                            <img
+                                src="img/venue-illustration.png"
+                                alt="ユニークな遊具"
+                            />
+                            <span>ユニークな遊具</span>
+                        </div>
+                        <div class="about-photo-item">
+                            <img
+                                src="img/sumo-illust.png"
+                                alt="トントン相撲大会"
+                            />
+                            <span>トントン相撲大会</span>
+                        </div>
                     </div>
                 </div>
             </div>
+        </header>
 
-            <div class="prog">
-                <div class="prog-head" style="background:#00B0F0;">
-                    <img class="prog-icon" src="img/family-stroller.png" alt="">
-                    <h3>おとうさんラボ</h3>
+        <!-- ===== 開催内容 ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="section-bar">開催内容</div>
+
+                <div class="caution-box">
+                    <p>
+                        ・あそびエリアは<strong>土足厳禁</strong>です。靴を入れる袋をご持参ください
+                    </p>
+                    <p>
+                        ・あそびエリア内での飲食は<strong>ご遠慮</strong>ください。
+                    </p>
                 </div>
-                <div class="prog-body">
-                    <div class="prog-photo"><img src="img/ohanashi-illust.png" alt="おとうさんラボ"></div>
-                    <div class="prog-text">
-                        <p class="prog-time"><b>1回目</b> 10:30-【対象 0-2歳児】<br><b>2回目</b> 14:00-【対象 3-6歳児】</p>
-                        <p class="prog-cap">【当日会場先着順】 ※2部制　※講座内容は変更になる場合があります</p>
-                        <p>子育てに参加したいけど、何をしたらわからない…そんなお父さんに向けた応援講座！お出かけ準備や親子ふれあいあそびなど楽しく育児に参加できます！</p>
+
+                <div class="prog-list">
+                    <div class="prog">
+                        <div class="prog-head" style="background: #ff9933">
+                            <img
+                                class="prog-icon"
+                                src="img/sumo-illust.png"
+                                alt=""
+                            />
+                            <h3>ジャンボトントン相撲</h3>
+                        </div>
+                        <div class="prog-body">
+                            <div class="prog-photo prog-illust-wrap">
+                                <img
+                                    src="img/sumo-illust.png"
+                                    alt="ジャンボトントン相撲"
+                                />
+                            </div>
+                            <div class="prog-text">
+                                <p class="prog-time">
+                                    各　<b>10:00-</b> ／ <b>13:00-</b> ／
+                                    <b>14:00-</b>
+                                </p>
+                                <p class="prog-cap">
+                                    【当日会場先着順】 ※定員8組　3部制
+                                </p>
+                                <p>
+                                    自分たちで作った段ボール力士を、トントン相撲で戦わせよう！大きな土俵をくり抜いたり、絵を描いてオリジナル力士を作ります。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prog">
+                        <div class="prog-head" style="background: #ff99cc">
+                            <img
+                                class="prog-icon"
+                                src="img/teddy-illust.png"
+                                alt=""
+                            />
+                            <h3>おはなし会</h3>
+                        </div>
+                        <div class="prog-body">
+                            <div class="prog-photo prog-illust-wrap">
+                                <img
+                                    src="img/ohanashi-illust.png"
+                                    alt="おはなし会"
+                                />
+                            </div>
+                            <div class="prog-text">
+                                <p class="prog-time">
+                                    各　<b>11:30-</b> ／ <b>14:30-</b>
+                                </p>
+                                <p class="prog-cap">【参加自由】</p>
+                                <p>
+                                    みんなで楽しむ絵本の世界にふれよう！親子で参加できます。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prog">
+                        <div class="prog-head" style="background: #00b0f0">
+                            <img
+                                class="prog-icon"
+                                src="img/family-stroller.png"
+                                alt=""
+                            />
+                            <h3>おとうさんラボ</h3>
+                        </div>
+                        <div class="prog-body">
+                            <div class="prog-photo">
+                                <img
+                                    src="img/ohanashi-illust.png"
+                                    alt="おとうさんラボ"
+                                />
+                            </div>
+                            <div class="prog-text">
+                                <p class="prog-time">
+                                    <b>1回目</b> 10:30-【対象 0-2歳児】<br /><b
+                                        >2回目</b
+                                    >
+                                    14:00-【対象 3-6歳児】
+                                </p>
+                                <p class="prog-cap">
+                                    【当日会場先着順】
+                                    ※2部制　※講座内容は変更になる場合があります
+                                </p>
+                                <p>
+                                    子育てに参加したいけど、何をしたらわからない…そんなお父さんに向けた応援講座！お出かけ準備や親子ふれあいあそびなど楽しく育児に参加できます！
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prog">
+                        <div class="prog-head" style="background: #66cc66">
+                            <img
+                                class="prog-icon"
+                                src="img/concert-illust.png"
+                                alt=""
+                            />
+                            <h3>〇〇 ミニコンサート</h3>
+                        </div>
+                        <div class="prog-body">
+                            <div class="prog-photo prog-illust-wrap">
+                                <img
+                                    src="img/concert-illust.png"
+                                    alt="ミニコンサート"
+                                />
+                            </div>
+                            <div class="prog-text">
+                                <p class="prog-time">
+                                    各　<b>11:00-</b> ／ <b>14:00-</b>
+                                </p>
+                                <p class="prog-cap">【参加自由】</p>
+                                <p>
+                                    お兄さんやお姉さんと一緒にお歌で遊ぼう！リトミックやミニコンサートを楽しめます。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prog">
+                        <div class="prog-head" style="background: #aa88cc">
+                            <img
+                                class="prog-icon"
+                                src="img/balloon-illust.png"
+                                alt=""
+                            />
+                            <h3>〇〇ふうせん</h3>
+                        </div>
+                        <div class="prog-body">
+                            <div class="prog-photo prog-illust-wrap">
+                                <img
+                                    src="img/balloon-illust.png"
+                                    alt="ふうせん"
+                                />
+                            </div>
+                            <div class="prog-text">
+                                <p class="prog-cap">【参加自由】</p>
+                                <p>
+                                    ふうせんをつかってあそぼう！うさぎ等の動物、たくさんのふうせんを使ったバルーンアーチが待っています。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prog">
+                        <div class="prog-head" style="background: #fee462">
+                            <img
+                                class="prog-icon"
+                                src="img/sports-illust.png"
+                                alt=""
+                            />
+                            <h3 class="dark">その他のあそび</h3>
+                        </div>
+                        <div class="prog-body prog-wide">
+                            <p>
+                                面白い形の遊具や、ゆっくり過ごせる乳児ゾーン、ヨーヨー釣りやおままごとコーナーなど、家族みんなで楽しめるあそびのコーナーが充実！
+                            </p>
+                            <div class="other-grid">
+                                <img
+                                    src="img/venue-illustration.png"
+                                    alt="ユニークな遊具"
+                                />
+                                <img
+                                    src="img/baby-illust.png"
+                                    alt="乳児ゾーン"
+                                />
+                                <img
+                                    src="img/boy-play-illust.png"
+                                    alt="あそび"
+                                />
+                                <img
+                                    src="img/sports-illust.png"
+                                    alt="運動あそび"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- アンケート -->
+                <div class="survey-box">
+                    <img
+                        class="survey-img"
+                        src="img/present-photo.png"
+                        alt="オリジナルプレゼント"
+                    />
+                    <div class="survey-text">
+                        <p class="survey-ttl">
+                            アンケートに回答して<strong
+                                >オリジナルプレゼントをもらおう！</strong
+                            >
+                        </p>
+                        <p>
+                            今回のイベントに関するアンケートにお答えいただいた方にはもれなく、会場限定オリジナルプレゼントをお渡しします！
+                        </p>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="prog">
-                <div class="prog-head" style="background:#66CC66;">
-                    <img class="prog-icon" src="img/concert-illust.png" alt="">
-                    <h3>〇〇 ミニコンサート</h3>
-                </div>
-                <div class="prog-body">
-                    <div class="prog-photo prog-illust-wrap"><img src="img/concert-illust.png" alt="ミニコンサート"></div>
-                    <div class="prog-text">
-                        <p class="prog-time">各　<b>11:00-</b> ／ <b>14:00-</b></p>
-                        <p class="prog-cap">【参加自由】</p>
-                        <p>お兄さんやお姉さんと一緒にお歌で遊ぼう！リトミックやミニコンサートを楽しめます。</p>
-                    </div>
-                </div>
+        <!-- ===== 開催概要 ===== -->
+        <section class="section section-yellow">
+            <div class="container narrow">
+                <div class="section-bar">開催概要</div>
+                <dl class="info-list">
+                    <dt>開催日</dt>
+                    <dd>
+                        2026年8月9日（日）10:00〜16:00<br />2026年8月10日（月）10:00〜15:00
+                    </dd>
+                    <dt>会場</dt>
+                    <dd>〇〇（市立体育館）</dd>
+                    <dt>対象</dt>
+                    <dd>小学校3年生（9歳）までのこどもとその家族</dd>
+                    <dt>参加費</dt>
+                    <dd class="dd-free">無料</dd>
+                    <dt>主催</dt>
+                    <dd>〇〇市</dd>
+                    <dt>運営</dt>
+                    <dd>株式会社〇〇</dd>
+                    <dt>協力</dt>
+                    <dd>〇〇 ／ 〇〇 ／ 〇〇 他</dd>
+                </dl>
             </div>
+        </section>
 
-            <div class="prog">
-                <div class="prog-head" style="background:#AA88CC;">
-                    <img class="prog-icon" src="img/balloon-illust.png" alt="">
-                    <h3>〇〇ふうせん</h3>
+        <!-- ===== ACCESS ===== -->
+        <section class="section">
+            <div class="container narrow">
+                <div
+                    class="section-bar"
+                    style="background: #5bc8f5; color: #fff"
+                >
+                    Access
                 </div>
-                <div class="prog-body">
-                    <div class="prog-photo prog-illust-wrap"><img src="img/balloon-illust.png" alt="ふうせん"></div>
-                    <div class="prog-text">
-                        <p class="prog-cap">【参加自由】</p>
-                        <p>ふうせんをつかってあそぼう！うさぎ等の動物、たくさんのふうせんを使ったバルーンアーチが待っています。</p>
+
+                <div class="parking-alert">
+                    <strong>駐車場に限りがあります！</strong>
+                    可能な限り交通機関でお越しください。
+                </div>
+
+                <div class="access-layout">
+                    <div class="access-info">
+                        <div class="access-item">
+                            <img
+                                class="access-icon"
+                                src="img/car-icon.png"
+                                alt="車"
+                            />
+                            <div>
+                                <strong>駐車場について</strong>
+                                <p>
+                                    〇〇会館に約〇〇台駐車場あり<br />
+                                    ※8月9日（日）は〇〇駐車場も利用できます<br />
+                                    ※平日は市役所利用者専用
+                                </p>
+                            </div>
+                        </div>
+                        <div class="access-item">
+                            <img
+                                class="access-icon"
+                                src="img/train-icon.png"
+                                alt="電車"
+                            />
+                            <div>
+                                <strong>電車でお越しの方</strong>
+                                <p>
+                                    近鉄〔〇〇〕駅より 徒歩〇分<br />
+                                    JR〔〇〇〕駅より 徒歩〇分
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                    <img
+                        class="access-map"
+                        src="img/access-map.png"
+                        alt="アクセスマップ"
+                    />
                 </div>
+                <p class="access-note">
+                    ※会場の混雑状況により、入場を制限する場合があります。
+                </p>
             </div>
+        </section>
 
-            <div class="prog">
-                <div class="prog-head" style="background:#FEE462;">
-                    <img class="prog-icon" src="img/sports-illust.png" alt="">
-                    <h3 class="dark">その他のあそび</h3>
-                </div>
-                <div class="prog-body prog-wide">
-                    <p>面白い形の遊具や、ゆっくり過ごせる乳児ゾーン、ヨーヨー釣りやおままごとコーナーなど、家族みんなで楽しめるあそびのコーナーが充実！</p>
-                    <div class="other-grid">
-                        <img src="img/cube-photo.png" alt="ユニークな遊具">
-                        <img src="img/baby-illust.png" alt="乳児ゾーン">
-                        <img src="img/boy-play-illust.png" alt="あそび">
-                        <img src="img/sports-illust.png" alt="運動あそび">
-                    </div>
-                </div>
+        <footer>
+            <div class="container">
+                <p>
+                    © まちのあそびフェス in
+                    〇〇〇〇　主催：〇〇市　運営：株式会社〇〇
+                </p>
             </div>
-
-        </div>
-
-        <!-- アンケート -->
-        <div class="survey-box">
-            <img class="survey-img" src="img/present-photo.png" alt="オリジナルプレゼント">
-            <div class="survey-text">
-                <p class="survey-ttl">アンケートに回答して<strong>オリジナルプレゼントをもらおう！</strong></p>
-                <p>今回のイベントに関するアンケートにお答えいただいた方にはもれなく、会場限定オリジナルプレゼントをお渡しします！</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ===== 開催概要 ===== -->
-<section class="section section-yellow">
-    <div class="container narrow">
-        <div class="section-bar">開催概要</div>
-        <dl class="info-list">
-            <dt>開催日</dt>
-            <dd>2026年8月9日（日）10:00〜16:00<br>2026年8月10日（月）10:00〜15:00</dd>
-            <dt>会場</dt>
-            <dd>〇〇会館（〇〇体育館）</dd>
-            <dt>対象</dt>
-            <dd>小学校3年生（9歳）までのこどもとその家族</dd>
-            <dt>参加費</dt>
-            <dd class="dd-free">無料</dd>
-            <dt>主催</dt>
-            <dd>〇〇市</dd>
-            <dt>運営</dt>
-            <dd>株式会社〇〇</dd>
-            <dt>協力</dt>
-            <dd>〇〇 ／ 〇〇 ／ 〇〇 他</dd>
-        </dl>
-    </div>
-</section>
-
-
-<!-- ===== ACCESS ===== -->
-<section class="section">
-    <div class="container narrow">
-        <div class="section-bar" style="background:#5BC8F5; color:#fff;">Access</div>
-
-        <div class="parking-alert">
-            <strong>駐車場に限りがあります！</strong>
-            可能な限り交通機関でお越しください。Access詳細は特設サイトをご覧ください。
-        </div>
-
-        <div class="access-layout">
-            <div class="access-info">
-                <div class="access-item">
-                    <img class="access-icon" src="img/car-icon.png" alt="車">
-                    <div>
-                        <strong>駐車場について</strong>
-                        <p>〇〇会館に約〇〇台駐車場あり<br>
-                        ※8月9日（日）は〇〇駐車場も利用できます<br>
-                        ※平日は市役所利用者専用</p>
-                    </div>
-                </div>
-                <div class="access-item">
-                    <img class="access-icon" src="img/train-icon.png" alt="電車">
-                    <div>
-                        <strong>電車でお越しの方</strong>
-                        <p>近鉄〔〇〇〕駅より 徒歩〇分<br>
-                        JR〔〇〇〕駅より 徒歩〇分</p>
-                    </div>
-                </div>
-                <div class="access-qr">
-                    <img src="img/qr-code.png" alt="特設サイトQRコード">
-                    <span>▲特設サイト</span>
-                </div>
-            </div>
-            <img class="access-map" src="img/access-map.png" alt="アクセスマップ">
-        </div>
-        <p class="access-note">※会場の混雑状況により、入場を制限する場合があります。</p>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>© まちのあそびフェス in 〇〇〇〇　主催：〇〇市　運営：株式会社〇〇</p>
-    </div>
-</footer>
-
-</body>
+        </footer>
+    </body>
 </html>
