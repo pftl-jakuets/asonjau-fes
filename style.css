@@ -732,6 +732,18 @@ img {
     object-fit: contain;
     height: auto;
 }
+.access-map-link {
+    display: block;
+    color: var(--mid);
+    text-align: center;
+    text-decoration: none;
+}
+.access-map-link span {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
 
 .access-note {
     margin-top: 10px;
