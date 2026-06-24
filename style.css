@@ -769,14 +769,14 @@ footer p {
         left: calc(50% + 4px);
         top: 42px;
         width: min(390px, 82vw);
-        height: 482px;
+        height: 380px;
         opacity: 0.82;
     }
     .hero::after {
         left: calc(50% + 4px);
         top: 78px;
         width: min(310px, 66vw);
-        height: 430px;
+        height: 350px;
         opacity: 0.82;
     }
     .hero-stage {
@@ -856,12 +856,12 @@ footer p {
     .hero::before {
         top: 38px;
         width: 350px;
-        height: 444px;
+        height: 350px;
     }
     .hero::after {
         top: 70px;
         width: 280px;
-        height: 400px;
+        height: 330px;
     }
     .hero-logo {
         top: -10px;
