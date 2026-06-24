@@ -45,13 +45,7 @@ img {
 }
 .section {
     padding-block: 48px;
-    background:
-        radial-gradient(
-            circle at 8% 12%,
-            rgba(255, 255, 255, 0.45) 0 90px,
-            transparent 92px
-        ),
-        #fff7b8;
+    background: #fff7b8;
 }
 .section:nth-of-type(even) {
     background: #fff;
@@ -194,7 +188,7 @@ img {
 /* 対象バッジ：右上 */
 .target-badge {
     position: absolute;
-    top: 392px;
+    top: 270px;
     right: 72px;
     z-index: 5;
     width: 168px;
@@ -233,7 +227,7 @@ img {
 .venue-circle {
     position: absolute;
     left: 48px;
-    top: 444px;
+    top: 270px;
     z-index: 6;
     width: 126px;
     height: 126px;
