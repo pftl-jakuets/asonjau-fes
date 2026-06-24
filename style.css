@@ -188,7 +188,7 @@ img {
 /* 対象バッジ：右上 */
 .target-badge {
     position: absolute;
-    top: 270px;
+    top: 350px;
     right: 72px;
     z-index: 5;
     width: 168px;
@@ -227,7 +227,7 @@ img {
 .venue-circle {
     position: absolute;
     left: 48px;
-    top: 270px;
+    top: 350px;
     z-index: 6;
     width: 126px;
     height: 126px;
@@ -793,7 +793,7 @@ footer p {
         bottom: 16px;
     }
     .target-badge {
-        top: 310px;
+        top: 200px;
         right: 14px;
         width: 126px;
         height: 116px;
@@ -808,7 +808,7 @@ footer p {
         line-height: 1.35;
     }
     .venue-circle {
-        top: 344px;
+        top: 200px;
         left: 16px;
         width: 90px;
         height: 90px;
