@@ -387,6 +387,31 @@ img {
     font-weight: 700;
     color: var(--brown);
 }
+.access-link {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.4;
+}
+.access-link-main {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-underline-offset: 3px;
+}
+.access-link-main::after {
+    content: "\00A0\203A";
+    font-weight: 900;
+}
+.access-link:hover .access-link-main {
+    text-decoration: underline;
+}
+.access-link-sub {
+    display: block;
+    color: var(--brown);
+    font-size: 0.78rem;
+    margin-top: 1px;
+}
+
 .free-badge {
     padding: 5px 22px;
     border-radius: 999px;
