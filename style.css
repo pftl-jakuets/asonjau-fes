@@ -942,8 +942,8 @@ footer p {
     }
     .parking-detail-badge {
         position: static;
-        order: -1;
+        order: 1;
         width: 100%;
-        margin-bottom: 4px;
+        margin-top: 12px;
     }
 }
