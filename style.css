@@ -681,6 +681,22 @@ img {
     gap: 12px;
 }
 
+.parking-detail-badge {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    background: #ff4d4d;
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 14px;
+    box-shadow: 0 4px 0 rgba(90, 44, 0, 0.15);
+}
+
 .access-item {
     display: flex;
     gap: 10px;
@@ -920,5 +936,14 @@ footer p {
     }
     .survey-box {
         flex-direction: column;
+    }
+    .access-item {
+        flex-wrap: wrap;
+    }
+    .parking-detail-badge {
+        position: static;
+        order: -1;
+        width: 100%;
+        margin-bottom: 4px;
     }
 }
