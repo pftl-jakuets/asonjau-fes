@@ -126,7 +126,8 @@
                         <p>
                             近鉄郡山駅前官民複合施設内に計画中の<strong>子育て世代活動支援センター</strong>の整備にあたり、設置する遊具や運営方法等を検討するための実証実験として「まちのあそびフェス
                             in
-                            三の丸」を開催します。会場内には、最先端でユニークな遊具やおもちゃ、おはなし会にトントン相撲等、いろんな<strong>【あそび】</strong>が大集合！親子で一緒にぜひご来場ください！
+                            三の丸」を開催します。会場内には、最先端でユニークな遊具やおもちゃ、おはなし会にトントン相撲等、いろんな<strong>【あそび】</strong>が大集合！親子で一緒にぜひご来場ください！<br />
+                            ※<strong>汚れてもいい服</strong>でお越しください。
                         </p>
                     </div>
                     <div class="about-photos">
@@ -134,7 +135,13 @@
                             <img src="img/story-session.png" alt="おはなし会" />
                             <span>おはなし会</span>
                         </div>
-                        <div class="about-photo-item">
+                        <div
+                            class="about-photo-item gallery-trigger"
+                            data-gallery="unique-play"
+                            role="button"
+                            tabindex="0"
+                            aria-label="ユニークな遊具の写真をもっと見る"
+                        >
                             <img
                                 src="img/venue-photo.jpeg"
                                 alt="ユニークな遊具"
@@ -158,13 +165,42 @@
             <div class="container">
                 <div class="section-bar">開催内容</div>
 
-                <div class="caution-box">
-                    <p>
-                        ・あそびエリアは<strong>土足厳禁</strong>です。靴を入れる袋をご持参ください
-                    </p>
-                    <p>
-                        ・あそびエリア内での飲食は<strong>ご遠慮</strong>ください。
-                    </p>
+                <div class="notice-box">
+                    <p class="notice-head">注意事項</p>
+                    <div class="notice-list">
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">👟</span>
+                            <p>あそびエリア内は<strong>土足厳禁</strong>です</p>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">🥤</span>
+                            <p>
+                                飲食は<strong>観客席</strong>でお願いします（ふた付き容器の飲み物はあそびエリア内でも可）
+                            </p>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">🚫</span>
+                            <p>
+                                <strong>ベビーカーでの入場はできません</strong>（1階に置き場あり、会場までは階段）
+                            </p>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">⚠️</span>
+                            <p>イベント内での事故・トラブルはご来場者様の自己責任となります</p>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">📷</span>
+                            <p>実証実験のため、運営側が記録用の写真撮影を行います</p>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">📱</span>
+                            <p>SNS投稿時は周囲の来場者が映り込まないようご注意ください</p>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon" aria-hidden="true">👀</span>
+                            <p>あそびエリア内ではお子さまから目を離さないでください</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="prog-list">
@@ -185,7 +221,9 @@
                                     <b>14:00-</b>
                                 </p>
                                 <p class="prog-cap">
-                                    【当日会場先着順】 ※定員8組　3部制
+                                    【当日会場先着順】 ※定員8組　3部制<br />
+                                    ※<strong>1家族1枠まで</strong><br />
+                                    ※開始時間の<strong>5分前</strong>までにお集まりください。間に合わなかった場合は<strong>キャンセル扱い</strong>となります。
                                 </p>
                                 <p>
                                     自分たちで作った段ボール力士を、トントン相撲で戦わせよう！大きな土俵をくり抜いたり、絵を描いてオリジナル力士を作ります。
@@ -322,7 +360,7 @@
                             >
                         </p>
                         <p>
-                            今回のイベントに関するアンケートにお答えいただいた方にはもれなく、会場限定オリジナルプレゼントをお渡しします！
+                            今回のイベントに関するアンケートにお答えいただいた方にはもれなく、会場限定オリジナルプレゼントをお渡しします！<br /><strong>※なくなり次第終了</strong>
                         </p>
                     </div>
                 </div>
@@ -437,5 +475,128 @@
                 </p>
             </div>
         </footer>
+
+        <!-- ===== 写真ギャラリーモーダル ===== -->
+        <div class="gallery-modal" id="gallery-modal" aria-hidden="true">
+            <div class="gallery-modal-overlay" data-gallery-close></div>
+            <div
+                class="gallery-modal-dialog"
+                role="dialog"
+                aria-modal="true"
+                aria-label="ユニークな遊具の写真"
+            >
+                <button
+                    type="button"
+                    class="gallery-modal-close"
+                    data-gallery-close
+                    aria-label="閉じる"
+                >
+                    ×
+                </button>
+                <button
+                    type="button"
+                    class="gallery-modal-nav gallery-modal-prev"
+                    data-gallery-prev
+                    aria-label="前の写真"
+                >
+                    ‹
+                </button>
+                <img
+                    class="gallery-modal-img"
+                    id="gallery-modal-img"
+                    src=""
+                    alt=""
+                />
+                <button
+                    type="button"
+                    class="gallery-modal-nav gallery-modal-next"
+                    data-gallery-next
+                    aria-label="次の写真"
+                >
+                    ›
+                </button>
+                <p class="gallery-modal-count" id="gallery-modal-count"></p>
+            </div>
+        </div>
+
+        <script>
+            (function () {
+                var galleries = {
+                    "unique-play": [
+                        "img/gallery-play-1.jpg",
+                        "img/gallery-play-2.jpg",
+                        "img/gallery-play-3.jpg",
+                        "img/gallery-play-4.jpg",
+                    ],
+                };
+
+                var modal = document.getElementById("gallery-modal");
+                var modalImg = document.getElementById("gallery-modal-img");
+                var modalCount = document.getElementById("gallery-modal-count");
+                var currentImages = [];
+                var currentIndex = 0;
+
+                function show(index) {
+                    currentIndex =
+                        (index + currentImages.length) % currentImages.length;
+                    modalImg.src = currentImages[currentIndex];
+                    modalCount.textContent =
+                        currentIndex + 1 + " / " + currentImages.length;
+                }
+
+                function open(key) {
+                    currentImages = galleries[key];
+                    if (!currentImages || !currentImages.length) return;
+                    show(0);
+                    modal.classList.add("is-open");
+                    modal.setAttribute("aria-hidden", "false");
+                    document.body.style.overflow = "hidden";
+                }
+
+                function close() {
+                    modal.classList.remove("is-open");
+                    modal.setAttribute("aria-hidden", "true");
+                    document.body.style.overflow = "";
+                }
+
+                document
+                    .querySelectorAll("[data-gallery]")
+                    .forEach(function (el) {
+                        el.addEventListener("click", function () {
+                            open(el.getAttribute("data-gallery"));
+                        });
+                        el.addEventListener("keydown", function (e) {
+                            if (e.key === "Enter" || e.key === " ") {
+                                e.preventDefault();
+                                open(el.getAttribute("data-gallery"));
+                            }
+                        });
+                    });
+
+                document
+                    .querySelectorAll("[data-gallery-close]")
+                    .forEach(function (el) {
+                        el.addEventListener("click", close);
+                    });
+
+                document
+                    .querySelector("[data-gallery-prev]")
+                    .addEventListener("click", function () {
+                        show(currentIndex - 1);
+                    });
+                document
+                    .querySelector("[data-gallery-next]")
+                    .addEventListener("click", function () {
+                        show(currentIndex + 1);
+                    });
+
+                document.addEventListener("keydown", function (e) {
+                    if (!modal.classList.contains("is-open")) return;
+                    if (e.key === "Escape") close();
+                    if (e.key === "ArrowLeft") show(currentIndex - 1);
+                    if (e.key === "ArrowRight") show(currentIndex + 1);
+                });
+            })();
+        </script>
     </body>
 </html>
