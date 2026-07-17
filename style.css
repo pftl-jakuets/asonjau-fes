@@ -469,6 +469,7 @@ img {
     gap: 14px;
 }
 .about-photo-item {
+    position: relative;
     border-radius: 14px;
     overflow: hidden;
     border: 6px solid var(--yellow2);
@@ -490,6 +491,19 @@ img {
     font-weight: 800;
     color: #fff;
     background: var(--orange);
+}
+.about-photo-item .gallery-more {
+    display: block;
+    margin-top: 4px;
+    padding-bottom: 8px;
+    background: transparent;
+    color: var(--blue);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-underline-offset: 3px;
+}
+.gallery-trigger:hover .gallery-more {
+    text-decoration: underline;
 }
 
 /* ===== PROGRAM ===== */
